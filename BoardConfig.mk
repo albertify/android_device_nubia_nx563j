@@ -23,12 +23,12 @@ DEVICE_PATH := device/nubia/nx563j
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := NX563J,nx563j
 
-# CM Hardware
+# MK Hardware
 BOARD_HARDWARE_CLASS += \
-    $(DEVICE_PATH)/cmhw
+    $(DEVICE_PATH)/mkhw
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineage_NX563J_defconfig
+TARGET_KERNEL_CONFIG := mokee_NX563J_defconfig
 DTS_NAME += \
     msm8998-v2.1-mtp-NX563J.dtb \
     msm8998-v2-mtp-NX563J.dtb \

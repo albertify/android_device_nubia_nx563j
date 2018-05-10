@@ -16,13 +16,13 @@
 
 $(call inherit-product, device/nubia/nx563j/full_nx563j.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common MK stuff.
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 # Unofficial build ID
-TARGET_UNOFFICIAL_BUILD_ID := beykerykt
+TARGET_UNOFFICIAL_BUILD_ID := albertify
 
-PRODUCT_NAME := lineage_nx563j
+PRODUCT_NAME := mk_nx563j
 PRODUCT_DEVICE := nx563j
 PRODUCT_MANUFACTURER := nubia
 PRODUCT_MODEL := NX563J
