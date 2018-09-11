@@ -1,7 +1,22 @@
-Copyright (C) 2018 - The MoKee Open Source Project
+Copyright (C) 2018 - The OmniRom Open Source Project
 
 Device configuration for ZTE Nubia Z17 NX563J
 ==============
+Tree for building TWRP for Nubia Z17
+
+## To compile
+
+. build/envsetup.sh && lunch omni_nx563j-userdebug
+
+mka recoveryimage
+
+## To flash
+
+fastboot oem nubia_unlock NUBIA_NX563J
+
+fastboot flash recovery recovery.img
+
+---
 
 The ZTE Nubia Z17 (codenamed _"nx563j"_) are high-end smartphones from ZTE Nubia.
 
